@@ -1,0 +1,37 @@
+body {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh;
+    margin: 0;
+    font-family: sans-serif;
+    background-image: url("https://wallpapercave.com/wp/wp12249580.jpg");  
+    background-size: cover;  
+    background-position: center;  
+}
+
+
+  .container {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 20px;
+  }
+  
+  .Favorites {
+    text-align: center;
+    margin: 0 auto;
+  }
+  
+  .Favorites img {
+    width: 200px;
+    height: 200px;
+    object-fit: cover;
+    border-radius: 50%;
+  }
+  
+  figcaption {
+    font-size: 18px;
+    font-weight: bold;
+    margin-top: 5px;
+  }
